@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+}
+
+header{
+    text-align: center;
+    color: greenyellow;
+    border: 2px solid gold;
+}
+
+.form{
+    margin: 5px;
+}
+
+.library{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.output{
+    display: grid;
+    background-color: lightcoral;
+    width: 600px;
+    grid-template-columns: 150px 150px 150px;
+    row-gap: 20px;
+    column-gap: 75px;
+    /* grid-template-rows: 50px 50px 50px; */
+    /* justify-content: space-between;   */
+    max-width: 600px;
+}
+
+.book{
+    border: 2px solid red;
+    box-sizing: border-box;
+    height: 150px;
+    min-width: 150px;
+    max-width: 200px;
+}
+
+.title{
+    max-width: 150px;
+    height: 37.5px;
+    /* max-height: 37.5px; */
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author{
+    max-width: 150px;
+    height: 37.5px;
+    /* max-height: 37.5px; */
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages{
+    max-width: 150px;
+    height: 37.5px;
+    /* max-height: 37.5px; */
+    background-color: orchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.read{  
+    max-width: 150px;
+    height: 37.5px;
+    /* max-height: 37.5px; */
+    background-color: greenyellow;
+    /* background-color: rgb(240, 28, 28); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

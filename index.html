@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header><h1>Library</h1></header>
+    <div class="form">
+        <label for="title" maxlength="20">Title: </label>
+        <input type="text" id="title" required placeholder="Max Length is 20">
+
+        <label for="author" maxlength="20">Author: </label>
+        <input type="text" id="author" required placeholder="Max Length is 20">
+
+        <label for="pages" maxlength="5">No of pages:</label>
+        <input type="number" id="pages" required placeholder="Max Pages are 9999">
+
+        <label for="read">Read: </label>
+        <input type="checkbox" id="read">
+
+        <input type="submit" value="Submit" id="submit">
+    </div>
+    <div class="library">
+        <div class="output"></div>
+    </div>
+</body>
+</html>
